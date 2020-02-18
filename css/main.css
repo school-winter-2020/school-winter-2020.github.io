@@ -26,3 +26,29 @@ body {
 }
 
 /*tml styles*/
+
+
+/*tm4 styles*/
+.cs-tm4-container p {
+    font-family: "EBGaramond12-Regular";
+    font-size: 22px;
+    line-height: 28px;
+    /* color: #FFFFFF; */
+}
+
+.cs-tm4-map {
+    width: 1148px;
+    height: 414px;
+    background-image: url("../images/mobilebitzseleclocation.png");
+}
+
+.cs-tm4-device-connect {
+    width: 1148px;
+    height: 393px;
+    background-image: url("../images/mobilebitzrepairmode.png");
+}
+
+
+
+/*tm4 styles*/
+
