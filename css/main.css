@@ -1,0 +1,28 @@
+
+
+/*tml styles*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	min-width: 320px;
+	font-family: "ProximaNova-Regular";
+	background: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.cs-tml-main-container{
+	position: relative;
+}
+
+.cs-tml-container-row{
+	max-width: 1170px;
+    min-width: 290px;
+    margin: 0 auto;
+}
+
+/*tml styles*/
