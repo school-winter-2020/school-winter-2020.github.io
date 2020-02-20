@@ -40,7 +40,7 @@ body {
     font-family: "EBGaramond12-Regular";
     font-size: 22px;
     line-height: 28px;
-    /* color: #FFFFFF; */
+     color: #FFFFFF; 
 }
 
 .cs-tm4-map {
@@ -58,4 +58,41 @@ body {
 
 
 /*tm4 styles*/
+
+.cs-tml-call-in-text{
+    font-family: "EBGaramond12-Regular";
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.cs-tml-background-pink{
+    background-image: url("../images/background_pink.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-width: 1924px;
+    /*max-height: 1993px;*/
+    background-position: right bottom;
+}
+
+.cs-tml-implementing-block h2{
+    font-family: "ProximaNova-Bold";
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.cs-tml-implementing-block p{
+    font-family: "EBGaramond12-Regular";
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.cs-tml-implementing-block p.cs-tml-sub-title{
+    font-family: "ProximaNova-Bold";
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+}
 
