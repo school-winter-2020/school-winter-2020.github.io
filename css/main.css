@@ -36,19 +36,12 @@ body {
     /* color: #FFFFFF; */
 }
 
-.cs-tm4-map {
-    width: 1148px;
-    height: 414px;
-    background-image: url("../images/mobilebitzseleclocation.png");
+.cs-tm4-map img {
+    max-width: 100%;
 }
 
-.cs-tm4-device-connect {
-    width: 1148px;
-    height: 393px;
-    background-image: url("../images/mobilebitzrepairmode.png");
+.cs-tm4-device-connect img {
+    max-width: 100%;
 }
-
-
-
 /*tm4 styles*/
 
