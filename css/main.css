@@ -26,3 +26,57 @@ body {
 }
 
 /*tml styles*/
+
+/*tm1 styles*/
+
+.cs-tm1-container {
+    width: 1920px;
+    height: 568px;
+    background: url('../images/header_banner.png') 0% 0% no-repeat padding-box;
+
+}
+
+a {text-decoration: none;}
+
+.cs-tm1-top-menu{
+    height: 
+}
+
+#cs_tm1_logo{
+
+    display: inline-block;
+    background-color: #EE4876;
+    padding: 10px 20px 6px 22px;
+}
+
+#cs_tm1_services{
+    display: inline-block;
+}
+
+#cs_tm1_menu{
+    display: inline-block;
+    /*padding: 25px 10px 10px 25px;*/
+}
+
+li {
+    display: inline-block;
+
+}
+
+#cs_tm1_login{
+    display: inline-block;
+    padding-right: 16px;
+    float: right;
+    /*padding: 25px 10px 10px 25px;*/
+}
+
+.divleft .divright {display: flex;     justify-content: space-between;}
+
+#cs_tm1_quote{
+    display: inline-block;
+    background-color: #EE4876;
+    padding: 10px 25px;
+    float: right;
+}
+/*tm1 styles*/
+
