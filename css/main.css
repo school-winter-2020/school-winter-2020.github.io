@@ -30,49 +30,48 @@ body {
 
 /*<--- begin tm1 styles*/
 
-.cs-tm1-container {
-    width: 1920px;
+.cs-tm1-header-content {
+    width: 100%;
     height: 568px;
     background: url('../images/header_banner.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
 
 }
 
 a {text-decoration: none;}
 
 .cs-tm1-top-menu{
-    height: 
+    display: flex; 
+    justify-content: space-between;
+    height: 40px;
+    padding-top: 16px;
 }
 
 #cs_tm1_logo{
-
     display: inline-block;
     background-color: #EE4876;
-    padding: 10px 20px 6px 22px;
+    padding: 10px 20px 1px 22px;
+    margin-right: 70px;
 }
 
-#cs_tm1_services{
-    display: inline-block;
-}
 
 #cs_tm1_menu{
     display: inline-block;
-    /*padding: 25px 10px 10px 25px;*/
 }
 
-li {
+#cs_tm1_menu li {
+    padding-left: 20px; 
     display: inline-block;
+}
 
+.cs-tm1-ls-notebook {
+    padding-left: 51px; 
+    display: inline-block;
 }
 
 #cs_tm1_login{
     display: inline-block;
-    padding-right: 16px;
-    /*padding: 25px 10px 10px 25px;*/
-}
-
-.divjustify {
-    display: flex; 
-    justify-content: space-between;
+    padding-right: 19px;
 }
 
 #cs_tm1_quote{
@@ -81,6 +80,43 @@ li {
     padding: 10px 25px;
     
 }
+
+.cs-tm1-text-info{
+    text-align: left; 
+    padding-top:61px;
+}
+#cs_tm1_site{
+    font-size: 24px;
+    margin:0;
+}
+#cs_tm1_custom {
+    font-size: 48px; 
+    margin:0;
+}
+#cs_tm1_store {
+    font-size: 100px; 
+    margin:0;
+}
+
+.cs-tm1-notebook {
+    position: relative;
+    top: -200px;
+    height: 625px;
+    background: url('../images/laptop.png') 0% 0% no-repeat;
+    background-size: inherit;
+}
+
+.cs-tm1-notebook-screen {
+    position: relative;
+}
+
+.cs-tm1-notebook-screen img{
+    position: absolute;
+    top: 38px;
+    left: 140px;
+
+}
+
 /*tm1 styles end --->*/
 
 /*tm3 styles*/
