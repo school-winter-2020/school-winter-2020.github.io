@@ -40,11 +40,15 @@ body {
     font-family: "EBGaramond12-Regular";
     font-size: 22px;
     line-height: 28px;
+}
+
+.cs-tm4-container__white {
     color: #FFFFFF;
 }
 
 .cs-tm4-map img,
-.cs-tm4-device-connect img {
+.cs-tm4-device-connect img,
+.cs-tm4-call-in-tech img {
     max-width: 100%;
 }
 /*tm4 styles*/
