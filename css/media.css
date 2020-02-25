@@ -1,15 +1,20 @@
 
 @media only screen and (max-width : 1170px) {
-	
+
 }
 
 
 @media only screen and (max-width : 767px) {
-	
+    /* tm-4 styles */
+    .cs-tm4-container {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    /* tm-4 styles */
 }
 
 @media only screen and (max-width : 480px) {
-	
+
 }
 
 
