@@ -44,17 +44,10 @@ body {
 }
 
 .cs-tm4-map img {
-    /* max-width: 1148px;
-    max-height: 414px;
-    background-image: url("../images/mobilebitzseleclocation.png");
-    background-size: auto auto contain; */
     max-width: 100%;
 }
 
 .cs-tm4-device-connect img {
-    /* max-width: 1148px;
-    height: 393px;
-    background-image: url("../images/mobilebitzrepairmode.png"); */
     max-width: 100%;
 }
 /*tm4 styles*/
