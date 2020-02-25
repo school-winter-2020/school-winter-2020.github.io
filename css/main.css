@@ -20,14 +20,15 @@ body {
 }
 
 .cs-tml-container-row{
-	max-width: 1170px;
+	max-width: 1148px;
     min-width: 290px;
     margin: 0 auto;
 }
 
 /*tml styles*/
 
-/*tm1 styles*/
+
+/*<--- begin tm1 styles*/
 
 .cs-tm1-container {
     width: 1920px;
@@ -66,17 +67,89 @@ li {
 #cs_tm1_login{
     display: inline-block;
     padding-right: 16px;
-    float: right;
     /*padding: 25px 10px 10px 25px;*/
 }
 
-.divleft .divright {display: flex;     justify-content: space-between;}
+.divjustify {
+    display: flex; 
+    justify-content: space-between;
+}
 
 #cs_tm1_quote{
     display: inline-block;
     background-color: #EE4876;
     padding: 10px 25px;
-    float: right;
+    
 }
-/*tm1 styles*/
+/*tm1 styles end --->*/
+
+/*tm3 styles*/
+
+#_cs-tm3-image-repair {
+    max-width: 100%;
+}
+
+/*tm3 styles*/
+
+/*tm4 styles*/
+.cs-tm4-container p {
+    font-family: "EBGaramond12-Regular";
+    font-size: 22px;
+    line-height: 28px;
+     color: #FFFFFF; 
+}
+
+.cs-tm4-map {
+    width: 1148px;
+    height: 414px;
+    background-image: url("../images/mobilebitzseleclocation.png");
+}
+
+.cs-tm4-device-connect {
+    width: 1148px;
+    height: 393px;
+    background-image: url("../images/mobilebitzrepairmode.png");
+}
+
+
+
+/*tm4 styles*/
+
+.cs-tml-call-in-text{
+    font-family: "EBGaramond12-Regular";
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.cs-tml-background-pink{
+    background-image: url("../images/background_pink.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-width: 1924px;
+    /*max-height: 1993px;*/
+    background-position: right bottom;
+}
+
+.cs-tml-implementing-block h2{
+    font-family: "ProximaNova-Bold";
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.cs-tml-implementing-block p{
+    font-family: "EBGaramond12-Regular";
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.cs-tml-implementing-block p.cs-tml-sub-title{
+    font-family: "ProximaNova-Bold";
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+}
+
 
