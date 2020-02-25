@@ -41,14 +41,22 @@ body {
 }
 
 #_cs-tm3-backgroung-blue {
-     background-image: url("../images/background_blue.png");
-     /* background-color: #6674BF;*/
-    height: 434px;
+    background-image: url("../images/background_blue.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    max-width: 1924px; */
-    /*max-height: 1993px;*/
-    background-position: right bottom;
+    /* background-position: center center; */
+    background-size: cover;
+    max-width: 1924px;
+    /* max-height: 434px; */
+    /* position: relative; */
+}
+
+#_cs-tm3-backgroung-blue .cs-tml-container-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#_cs-tm3-backgroung-blue .cs-tml-container-row p {
+    color: #FFFFFF;
 }
 
 /*tm3 styles*/
