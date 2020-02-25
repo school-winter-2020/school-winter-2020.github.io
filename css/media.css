@@ -1,5 +1,15 @@
 
 @media only screen and (max-width : 1148px) {
+
+    /*tm3 styles*/
+
+    .cs-tm3-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /*tm3 styles*/
+
     /* tm-4 styles */
     .cs-tm4-container {
         margin-right: 20px;
