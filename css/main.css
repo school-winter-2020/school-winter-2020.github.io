@@ -33,6 +33,24 @@ body {
     max-width: 100%;
 }
 
+#_cs-tm3-strong-text {
+    font-family: "ProximaNova-Bold";
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+#_cs-tm3-backgroung-blue {
+     background-image: url("../images/background_blue.png");
+     /* background-color: #6674BF;*/
+    height: 434px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 1924px; */
+    /*max-height: 1993px;*/
+    background-position: right bottom;
+}
+
 /*tm3 styles*/
 
 /*tm4 styles*/
