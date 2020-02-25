@@ -40,23 +40,13 @@ body {
     font-family: "EBGaramond12-Regular";
     font-size: 22px;
     line-height: 28px;
-     color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
-.cs-tm4-map {
-    width: 1148px;
-    height: 414px;
-    background-image: url("../images/mobilebitzseleclocation.png");
+.cs-tm4-map img,
+.cs-tm4-device-connect img {
+    max-width: 100%;
 }
-
-.cs-tm4-device-connect {
-    width: 1148px;
-    height: 393px;
-    background-image: url("../images/mobilebitzrepairmode.png");
-}
-
-
-
 /*tm4 styles*/
 
 .cs-tml-call-in-text{
