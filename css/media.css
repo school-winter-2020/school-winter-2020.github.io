@@ -3,25 +3,7 @@
 
     /*tm3 styles*/
 
-    #_cs-tm3-image-repair {
-        max-width: 1148px;
-        width: 100%;
-        height: auto;
-    }
-
-    /*tm3 styles*/
-
-}
-
-
-@media only screen and (max-width : 767px) {
-	
-    /*tm3 styles*/
-
-    #_cs-tm3-image-repair {
-        max-width: 727px;
-        width: 100%;
-        height: auto;
+    .cs-tm3-container {
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -30,32 +12,17 @@
 
 }
 
+
+@media only screen and (max-width : 767px) {
+
+}
+
 @media only screen and (max-width : 480px) {
-	
-    /*tm3 styles*/
-
-    #_cs-tm3-image-repair {
-        max-width: 480px;
-        width: 100%;
-        height: auto;
-    }
-
-    /*tm3 styles*/
 
 }
 
 
 @media only screen and (max-width : 320px) {
-
-    /*tm3 styles*/
-
-    #_cs-tm3-image-repair {
-        max-width: 320px;
-        width: 100%;
-        height: auto;
-    }
-
-    /*tm3 styles*/
 
 }
 
