@@ -40,8 +40,8 @@ body {
 
 a {text-decoration: none;}
 
-a:active, /* активная/посещенная ссылка */
-a:hover,  /* при наведении */
+a:active,
+a:hover,
 a {
   color: white;
 }
@@ -78,18 +78,12 @@ a {
     display: inline-block;
 }
 
-.cs-tm1-ls-notebook {
-    padding-left: 51px; 
-    display: inline-block;
-}
-
 #cs_tm1_login{
     display: inline-block;
     padding-right: 19px;
 }
 
 #cs_tm1_quote{
-    color: white;
     display: inline-block;
     background-color: #EE4876;
     padding: 10px 25px;
@@ -132,13 +126,24 @@ a {
 
 }
 
-.cs-tm1-container-menu li{
-    display: inline-block;
-}
-
 .cs-tm1-container-menu {
+    margin-top: 43px;
     text-align: center;
     vertical-align: middle;
+}
+
+.cs-tm1-container-menu nav li {
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.cs-tm1-container-menu nav li:not(:first-child) {
+    padding-left: 51px; 
+}
+
+.cs-tm1-container-menu li:hover{
+    opacity: 1;
 }
 
 /*tm1 styles end --->*/
