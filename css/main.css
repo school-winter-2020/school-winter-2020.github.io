@@ -133,14 +133,17 @@ a {text-decoration: none;}
 }
 
 #_cs-tm3-backgroung-blue {
-     background-image: url("../images/background_blue.png");
-     /* background-color: #6674BF;*/
-    height: 434px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    max-width: 1924px; */
-    /*max-height: 1993px;*/
-    background-position: right bottom;
+    background-image: url("../images/background_blue.png");
+    background-size: cover;
+}
+
+#_cs-tm3-backgroung-blue .cs-tml-container-row {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#_cs-tm3-backgroung-blue .cs-tml-container-row p {
+    color: #FFFFFF;
 }
 
 /*tm3 styles*/
@@ -173,10 +176,9 @@ a {text-decoration: none;}
 .cs-tml-background-pink{
     background-image: url("../images/background_pink.png");
     background-repeat: no-repeat;
-    background-size: auto;
-    max-width: 1924px;
-    /*max-height: 1993px;*/
-    background-position: right bottom;
+    background-size: cover;
+    background-position: 100% 0%;
+}
 }
 
 .cs-tml-implementing-block h2{
