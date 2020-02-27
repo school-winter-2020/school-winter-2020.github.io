@@ -125,6 +125,24 @@ a {text-decoration: none;}
     max-width: 100%;
 }
 
+#_cs-tm3-strong-text {
+    font-family: "ProximaNova-Bold";
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+#_cs-tm3-backgroung-blue {
+     background-image: url("../images/background_blue.png");
+     /* background-color: #6674BF;*/
+    height: 434px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 1924px; */
+    /*max-height: 1993px;*/
+    background-position: right bottom;
+}
+
 /*tm3 styles*/
 
 /*tm4 styles*/
@@ -132,23 +150,17 @@ a {text-decoration: none;}
     font-family: "EBGaramond12-Regular";
     font-size: 22px;
     line-height: 28px;
-     color: #FFFFFF; 
 }
 
-.cs-tm4-map {
-    width: 1148px;
-    height: 414px;
-    background-image: url("../images/mobilebitzseleclocation.png");
+.cs-tm4-container__white {
+    color: #FFFFFF;
 }
 
-.cs-tm4-device-connect {
-    width: 1148px;
-    height: 393px;
-    background-image: url("../images/mobilebitzrepairmode.png");
+.cs-tm4-map img,
+.cs-tm4-device-connect img,
+.cs-tm4-call-in-tech img {
+    max-width: 100%;
 }
-
-
-
 /*tm4 styles*/
 
 .cs-tml-call-in-text{
