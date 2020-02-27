@@ -223,6 +223,133 @@ a {
 }
 /*tm4 styles*/
 
+/*tm6 styles*/
+.cs-tm6-container{
+    font-family: ProximaNova-Bold;
+}
+
+.cs-tm6-title{
+    font-size: 48px;
+}
+
+.cs-tm6-results-title{
+    margin-bottom: 17px;
+}
+
+.cs-tm6-results{
+    width: 1139px;
+    margin-bottom: 83px;
+}
+
+.cs-tm6-relate-title{
+    margin-bottom: 26px;
+}
+
+.cs-tm6-relate {
+    top: 26px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+
+    display: flex;
+}   
+
+.cs-tm6-related_item_left{
+
+    margin-left: -50px;
+}
+
+.cs-tm6-related_item_right{
+    margin-right: -50px;
+}
+
+.cs-tm6-related_inner{    
+    position: relative;
+}
+
+.cs-tm6-related_text_left {
+    font-family: "EBGaramond12-Regular";
+    top: 52px;
+    left: 180px;
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    margin-bottom: 6px;
+}
+
+.cs-tm6-related_text2_left {
+    font-family: "ProximaNova-Regular";
+    font-size: 32px;
+    color: #fff;
+    text-align: left;
+
+    position: absolute;
+    top: 82px;
+    left: 180px;
+}
+
+.cs-tm6-related_text_right {
+    font-family: "EBGaramond12-Regular";
+    top: 52px;
+    left: 112px;
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    margin-bottom: 6px;
+}
+
+.cs-tm6-related_text2_right {
+    font-family: "ProximaNova-Regular";
+    font-size: 32px;
+    color: #fff;
+    text-align: left;
+    max-width: 350px;
+
+    position: absolute;
+    top: 82px;
+    left: 112px;
+}
+
+.cs-tm6-want_to_work{
+    text-align: center;
+    margin-top: 91px;
+    font-size: 70px;
+}
+
+.cs-tm6-wtw_item{
+    width: 354px;
+    height: 68px;
+    margin: 0 auto;
+    margin-top: 29px;
+    background: #000000;
+    position: relative;
+}
+
+.cs-tm6-wtw_text{
+    font-size: 70px;
+}
+
+.cs-tm6-wtw_text2{
+    font-size: 24px;
+    color:#FFFFFF;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.cs-tm6-footer{
+    margin-top: 120px;
+}
+
+.cs-tm6-contact{
+    height: 67px;
+    margin-bottom: 66px;
+}
+
+/*tm6 styles*/
+
 .cs-tml-call-in-text{
     font-family: "EBGaramond12-Regular";
     font-size: 22px;
