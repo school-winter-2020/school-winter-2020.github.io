@@ -29,6 +29,54 @@ body {
     margin-bottom: 25px;
 }
 
+.cs-tml-call-in-text{
+    font-family: 'EB Garamond';
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.cs-tml-background-pink{
+    background-image: url("../images/background_pink.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 0%;
+}
+
+.cs-tml-implementing-block h2{
+    font-family: "ProximaNova-Bold";
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    margin: 0;
+}
+
+.cs-tml-implementing-block p{
+    font-family: 'EB Garamond';
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 0;
+
+}
+
+.cs-tml-implementing-block p.cs-tml-sub-title{
+    font-family: "ProximaNova-Bold";
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.cs-tml-implementing-block{
+   margin-top: 55px;
+}
+
+.cs-tml-implementing-block.cs-tml-container-row{
+     margin-top: 110px;
+}
+
 /*tml styles*/
 
 
@@ -491,52 +539,6 @@ font-size: 22px;
 
 /*tm6 styles*/
 
-.cs-tml-call-in-text{
-    font-family: 'EB Garamond';
-    font-size: 22px;
-    line-height: 28px;
-    color: #000000;
-}
 
-.cs-tml-background-pink{
-    background-image: url("../images/background_pink.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 0%;
-}
-
-.cs-tml-implementing-block h2{
-    font-family: "ProximaNova-Bold";
-    font-size: 48px;
-    line-height: 58px;
-    color: #000000;
-    margin: 0;
-}
-
-.cs-tml-implementing-block p{
-    font-family: 'EB Garamond';
-    font-size: 22px;
-    line-height: 28px;
-    color: #000000;
-    margin-top: 0;
-
-}
-
-.cs-tml-implementing-block p.cs-tml-sub-title{
-    font-family: "ProximaNova-Bold";
-    font-size: 22px;
-    line-height: 24px;
-    color: #000000;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
-.cs-tml-implementing-block{
-   margin-top: 55px;
-}
-
-.cs-tml-implementing-block.cs-tml-container-row{
-     margin-top: 110px;
-}
 
 
