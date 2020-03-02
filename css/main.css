@@ -25,6 +25,10 @@ body {
     margin: 0 auto;
 }
 
+.cs-tml-implementing-block .cs-tml-related-block{
+    margin-bottom: 25px;
+}
+
 /*tml styles*/
 
 
@@ -74,8 +78,16 @@ a {
 }
 
 #cs_tm1_menu li {
-    padding-left: 20px; 
+    padding-left: 25px; 
     display: inline-block;
+}
+
+#cs_tm1_menu li:last-child a{
+    padding-left: 5px;
+} 
+
+#cs_tm1_menu ul{
+    padding-left: 50px;
 }
 
 #cs_tm1_login{
@@ -92,19 +104,23 @@ a {
 
 .cs-tm1-text-info{
     text-align: left; 
-    padding-top:61px;
+    padding-top:65px;
 }
 #cs_tm1_site{
     font-size: 24px;
     margin:0;
+    margin-bottom: 10px;
+    font-family: 'EB Garamond';
 }
 #cs_tm1_custom {
     font-size: 48px; 
     margin:0;
+    font-weight: bold;
 }
 #cs_tm1_store {
     font-size: 100px; 
     margin:0;
+    font-weight: bold;
 }
 
 .cs-tm1-notebook {
@@ -130,12 +146,15 @@ a {
     margin-top: 43px;
     text-align: center;
     vertical-align: middle;
+    margin-bottom: 70px;
 }
 
 .cs-tm1-container-menu nav li {
     display: inline-block;
     font-weight: bold;
     opacity: 0.5;
+    color: #000;
+    font-size: 18px;
 }
 
 .cs-tm1-container-menu nav li:not(:first-child) {
@@ -150,25 +169,23 @@ a {
 
 /*tm2 styles*/
 .cs-tm2-text{
-display: flex;
-justify-content: space-around;
-align-items: top;
-
-
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 .cs-tm2-text1{
-font-family: EBGaramond12-Regular;
+    font-family: 'EB Garamond';
     font-size: 28px;
-
-
+    line-height: 42px;
 }
 .cs-tm2-text2{
     margin-left: 44px;
-    font-family: EBGaramond12-Regular;
+    font-family: 'EB Garamond';
     font-size: 18px;
     display:flex;
     flex-direction: column;
     line-height: 22px;
+    min-width: 255px;
 }
 .cs-tm2-text2 ul{
     list-style-type: none;
@@ -180,15 +197,21 @@ font-family: EBGaramond12-Regular;
 } 
 
 .cs-tm2-text {
-  font-family: EBGaramond12-Regular;
+    font-family: 'EB Garamond';
     font-size: 28px;
     font-style: normal;
 }
+
+.cs-tm2-second_step{
+    margin-top: 135px;
+}
+
 .cs-tm2-second_step p{
     line-height: 50px;
     font-size: 48px;
-    margin-top: 72px;
-    font-family: Proxima ProximaNova-Bold;
+    font-weight: bold;
+    font-family: "ProximaNova-Bold";
+    margin-bottom: 15px;
 }
 .cs-tm2-icon2{
     margin-top: 12px;
@@ -240,7 +263,7 @@ font-size: 22px;
     line-height: 28px;
     text-align: left;
     font-size: 22px;
-    font-family: EBGaramond12-Regular;
+    font-family: 'EB Garamond';
 }
 .cs-tm2-image-title{
     margin: 0 auto;
@@ -248,7 +271,7 @@ font-size: 22px;
     line-height: 28px;
     text-align: left;
     font-size: 22px;
-    font-family: EBGaramond12-Regular;
+    font-family: 'EB Garamond';
 }
 .cs-tm2-image-title.cs-tm2-title-center{
     text-align: center;
@@ -273,7 +296,7 @@ font-size: 22px;
 }
 
 #_cs-tm3-image-repair {
-    margin-top: 31px;
+    margin-top: 10px;
     max-width: 100%;
 }
 
@@ -299,6 +322,7 @@ font-size: 22px;
 
 #_cs-tm3-backgroung-blue .cs-tml-container-row p {
     color: #FFFFFF;
+    margin-top: 0;
 }
 
 #_cs-tm3-upgrading-block {
@@ -319,13 +343,15 @@ font-size: 22px;
 
 /*tm4 styles*/
 .cs-tm4-container p {
-    font-family: "EBGaramond12-Regular";
+    font-family: 'EB Garamond';
     font-size: 22px;
     line-height: 28px;
+    margin-top: 30px;
 }
 
 .cs-tm4-container__white {
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .cs-tm4-map img,
@@ -337,7 +363,7 @@ font-size: 22px;
 
 /*tm6 styles*/
 .cs-tm6-container{
-    font-family: ProximaNova-Bold;
+    font-family: "ProximaNova-Bold";
 }
 
 .cs-tm6-title{
@@ -380,7 +406,7 @@ font-size: 22px;
 }
 
 .cs-tm6-related_text_left {
-    font-family: "EBGaramond12-Regular";
+    font-family: 'EB Garamond';
     top: 52px;
     left: 180px;
     font-size: 24px;
@@ -388,21 +414,22 @@ font-size: 22px;
     text-align: left;
     position: absolute;
     margin-bottom: 6px;
+    line-height: 34px;
 }
 
 .cs-tm6-related_text2_left {
-    font-family: "ProximaNova-Regular";
+    font-family: 'EB Garamond';
     font-size: 32px;
     color: #fff;
     text-align: left;
-
+    line-height: 28px;
     position: absolute;
     top: 82px;
     left: 180px;
 }
 
 .cs-tm6-related_text_right {
-    font-family: "EBGaramond12-Regular";
+    font-family: 'EB Garamond';
     top: 52px;
     left: 112px;
     font-size: 24px;
@@ -441,6 +468,7 @@ font-size: 22px;
 
 .cs-tm6-wtw_text{
     font-size: 70px;
+    font-family: "ProximaNova-Bold";
 }
 
 .cs-tm6-wtw_text2{
@@ -449,6 +477,7 @@ font-size: 22px;
     position: absolute;
     top: 25%;
     left: 25%;
+    font-family: "ProximaNova-Bold";
 }
 
 .cs-tm6-footer{
@@ -463,7 +492,7 @@ font-size: 22px;
 /*tm6 styles*/
 
 .cs-tml-call-in-text{
-    font-family: "EBGaramond12-Regular";
+    font-family: 'EB Garamond';
     font-size: 22px;
     line-height: 28px;
     color: #000000;
@@ -481,13 +510,16 @@ font-size: 22px;
     font-size: 48px;
     line-height: 58px;
     color: #000000;
+    margin: 0;
 }
 
 .cs-tml-implementing-block p{
-    font-family: "EBGaramond12-Regular";
+    font-family: 'EB Garamond';
     font-size: 22px;
     line-height: 28px;
     color: #000000;
+    margin-top: 0;
+
 }
 
 .cs-tml-implementing-block p.cs-tml-sub-title{
@@ -495,6 +527,16 @@ font-size: 22px;
     font-size: 22px;
     line-height: 24px;
     color: #000000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.cs-tml-implementing-block{
+   margin-top: 55px;
+}
+
+.cs-tml-implementing-block.cs-tml-container-row{
+     margin-top: 110px;
 }
 
 
