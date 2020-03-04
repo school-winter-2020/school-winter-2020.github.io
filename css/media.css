@@ -1,5 +1,13 @@
 
 @media only screen and (max-width : 1148px) {
+    /*tm2 styles*/
+    .cs-tm2-text,
+    .cs-tml-implementing-block,
+    .cs-tm2-second-step {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    /*tm2 styles*/
 
     /*tm3 styles*/
 
@@ -20,7 +28,26 @@
 
 
 @media only screen and (max-width : 767px) {
+    .cs-tm2-text {
+        flex-direction: column;
+    }
 
+    .cs-tm2-text1 {
+        margin-bottom: 40px;
+    }
+
+    .cs-tm2-text2 {
+        margin-left: 0;
+    }
+
+    .cs-tm2-icon3 {
+        flex-direction: column;
+    }
+
+    .cs-tm2-second_step p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
 }
 
 @media only screen and (max-width : 480px) {
