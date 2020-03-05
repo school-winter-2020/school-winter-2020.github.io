@@ -1,6 +1,15 @@
 
 
 /*tml styles*/
+
+*{
+    box-sizing: border-box;
+}
+
+html img {
+    max-width: 100% ;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -77,6 +86,15 @@ body {
      margin-top: 110px;
 }
 
+.cs-tml-relate-grid{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+}  
+
+
 /*tml styles*/
 
 
@@ -106,7 +124,7 @@ a {
 .cs-tm1-top-menu{
     display: flex;
     justify-content: space-between;
-    height: 40px;
+   /* height: 40px;*/
     padding-top: 16px;
 }
 
@@ -174,19 +192,26 @@ a {
 .cs-tm1-notebook {
     position: relative;
     top: -200px;
-    height: 625px;
+    height: 630px;
     background: url('../images/laptop.png') 0% 0% no-repeat;
     background-size: inherit;
 }
 
 .cs-tm1-notebook-screen {
     position: relative;
+    height: 100%;
+    max-height: 533px;
+    overflow-y: hidden;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 0px;
+    top: 6%;
 }
 
 .cs-tm1-notebook-screen img{
     position: absolute;
-    top: 38px;
-    left: 140px;
+    /*top: 38px;
+    left: 140px;*/
 
 }
 
@@ -426,11 +451,10 @@ font-size: 22px;
 .cs-tm6-relate {
     top: 26px;
     height: 100%;
-    text-align: center;
+    /*text-align: center;
     justify-content: center;
-
-    display: flex;
-}   
+    display: flex;*/
+} 
 
 .cs-tm6-related_item_left{
 
