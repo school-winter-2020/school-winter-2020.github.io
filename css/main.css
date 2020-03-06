@@ -30,7 +30,7 @@ body {
 
 .cs-tml-container-row{
 	max-width: 1148px;
-    min-width: 290px;
+    min-width: 280px;
     margin: 0 auto;
 }
 
@@ -46,13 +46,14 @@ body {
 }
 
 .cs-tml-background-pink{
-    background-image: url("../images/background_pink.png");
+    background-image: url(../images/background_pink.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 0%;
+    background-size: 100% 1950px;
+    background-position: 100% 100%;
 }
 
-.cs-tml-implementing-block h2{
+.cs-tml-implementing-block h2,
+.cs-tml-implementing-block-one h2{
     font-family: "ProximaNova-Bold";
     font-size: 48px;
     line-height: 58px;
@@ -60,7 +61,8 @@ body {
     margin: 0;
 }
 
-.cs-tml-implementing-block p{
+.cs-tml-implementing-block p,
+.cs-tml-implementing-block-one p{
     font-family: 'EB Garamond';
     font-size: 22px;
     line-height: 28px;
@@ -69,7 +71,8 @@ body {
 
 }
 
-.cs-tml-implementing-block p.cs-tml-sub-title{
+.cs-tml-implementing-block p.cs-tml-sub-title,
+.cs-tml-implementing-block-one p.cs-tml-sub-title{
     font-family: "ProximaNova-Bold";
     font-size: 22px;
     line-height: 24px;
@@ -82,9 +85,11 @@ body {
    margin-top: 55px;
 }
 
-.cs-tml-implementing-block.cs-tml-container-row{
+.cs-tml-implementing-block-one.cs-tml-container-row{
      margin-top: 110px;
 }
+
+
 
 .cs-tml-relate-grid{
     text-align: center;
@@ -117,7 +122,7 @@ a {
 }
 
 .cs-tm1-container{
-    max-height: 1000px;
+    max-height: 1005px;
     overflow-y: hidden;
 }
 
@@ -192,7 +197,7 @@ a {
 .cs-tm1-notebook {
     position: relative;
     top: -200px;
-    height: 630px;
+    height: 635px;
     background: url('../images/laptop.png') 0% 0% no-repeat;
     background-size: inherit;
 }
@@ -549,7 +554,7 @@ font-size: 22px;
 }
 
 .cs-tm6-contact{
-    height: 67px;
+   /* height: 67px;*/
     margin-bottom: 66px;
 }
 
