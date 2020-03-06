@@ -168,6 +168,10 @@
         flex-direction: column;
     }
 
+    .cs-tm1-header-content{
+    	min-height: 300px;
+    }
+
     .cs-tm2-text2 {
         margin-left: 0;
     }
